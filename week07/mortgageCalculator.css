@@ -1,0 +1,46 @@
+.textbox {   background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 0%; 
+}
+.button {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 100%;
+  margin-top: 38px;
+  // outline: 0;
+  text-align: center;
+  width: 110px;
+}
+
+.button:active {
+  background-color: #06b;
+}
+.h1{  
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;	
+}
+.p{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.form{
+	margin-left: 40%
+}
