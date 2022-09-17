@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style> 
-        #image {
-          border: 1px solid;  
-          padding: 10px;
-        
-          box-shadow: 5px 10px;
-          box-sizing: border-box;
-          width: 1045px;
-          height: fit-content;
+
+        .flex-container {
+        display: flex;
+        background-color: DodgerBlue;
         }
-     
+
+        .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        }
         </style>
     <title>Ben Ekstrand's Assignments</title>
 </head>
 
-<body>
-    <h1 style="text-align: center">CS 213 Assignments</h1>
+<body style="margin-right:30%; margin-left: 30%;">
+    <h1>
+    <div class="flex-container">
+    <div id="image">
+        <img src="images/me.jpg" width="320" alt="a picture of me">
+    </div>
+    <div>Ben Ekstrand</div>
+</div>
+</h1>
     <p style="text-align: center ; font-size: large;">I'm sorry you have to be subjected to this...</p>
     <br>
     <ul style="text-align: center; list-style-position: inside; "></ul>
@@ -69,11 +78,8 @@
     </ul>
     <br>
     <br>
-    <div id="image">
-    <img src="me.jpg" width="1024" alt="a picture of me">
-    </div>
-    <br>
-    <br>
 </body>
-
+<footer>
+    
+</footer>
 </html>
