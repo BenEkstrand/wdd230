@@ -8,78 +8,91 @@
 
         .flex-container {
         display: flex;
-        background-color: DodgerBlue;
+        background-image: url("week05/Scroll_Background.jpg");
+        justify-content: center;
+        align-items: center;
         }
 
         .flex-container > div {
-        background-color: #f1f1f1;
+        background-image: url("week05/Scroll_Background.jpg"); 
         margin: 10px;
         padding: 20px;
-        font-size: 30px;
+        font-size: 40px;
         }
         </style>
+        
     <title>Ben Ekstrand's Assignments</title>
 </head>
 
 <body style="margin-right:30%; margin-left: 30%;">
+   <header>
     <h1>
-    <div class="flex-container">
-    <div id="image">
-        <img src="images/me.jpg" width="320" alt="a picture of me">
-    </div>
-    <div>Ben Ekstrand</div>
-</div>
-</h1>
-    <p style="text-align: center ; font-size: large;">I'm sorry you have to be subjected to this...</p>
+        <div class="flex-container">
+        <div id="image">
+            <img src="images/me.jpg" width="320" alt="a picture of me">
+        </div>
+        <div style="color: rgb(99, 95, 95); text-shadow: 1px 1px 2px black;">Ben Ekstrand</div>
+        </div>
+    </h1>
+    </header>
+
+    <p style="text-align: center; color: rgb(99, 95, 95); text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-weight: bolder; font-size: 32px;">WDD 230 Assignment Portal</p>
+    <hr>
     <br>
-    <ul style="text-align: center; list-style-position: inside; "></ul>
+    <ul style="text-align: left; list-style-position: inside; background-image: url(week05/Scroll_Background.jpg); padding: .25in;">
     <li >
-        <a href="./week02/assign02.html">Week 02</a>
+        <a href="./week02/assign02.html">Lesson 02</a>
     </li>
     <li >
-        <a href="./week03/assign03.html">Week 03</a>
+        <a href="./week03/assign03.html">Lesson 03</a>
     </li>
     <li>
         <a href="./week03/Week3Group.html">Group Work Week 3</a>
     </li>
     <li >
-        <a href="./week04/assign04.html">Week 04</a>
+        <a href="./week04/assign04.html">Lesson 04</a>
     </li>
     <li>
-        <a href="./week05/assign05.html">Week 05</a>
+        <a href="./week05/assign05.html">Lesson 05</a>
     </li>
     <li>
-        <a href="./week06/University.html">Week 06</a>
+        <a href="./week06/University.html">Lesson 06</a>
     </li>
     <li>
         <a href="./week06/GroupWorkWeek6.css">Group Work Week 6</a>
     </li>
     <li>
-        <a href="./week07/assign07.html">Week 07</a>
+        <a href="./week07/assign07.html">Lesson 07</a>
     </li>
     <li>
-        <a href="./week08/assign08.html">Week 08</a>
+        <a href="./week08/assign08.html">Lesson 08</a>
     </li>
     <li>
-        <a href="./week09/assign09.html">Week 09</a>
+        <a href="./week09/assign09.html">Lesson 09</a>
     </li>
     <li>
-        <a href="./week10/assign10.html">Week 10</a>
+        <a href="./week10/assign10.html">Lesson 10</a>
     </li>
     <li>
-        <a href="./week11/assign11.html">Week 11</a>
+        <a href="./week11/assign11.html">Lesson 11</a>
     </li>
     <li>
-        <a href="./week12/assign12.html">Week 12</a>
+        <a href="./week12/assign12.html">Lesson 12</a>
     </li>
     <li>
-        <a href="./week13/assign13.html">Week 13</a>
+        <a href="./week13/assign13.html">Lesson 13</a>
     </li>
     </ul>
     <br>
     <br>
+    <hr>
 </body>
-<footer>
-    
+<footer style="text-align: center;" >
+    <p>
+      &copy; <span id="theYear"></span> <a id="myName" href="index.html"><span class="myName"></span></a> &bull; <a id="myloc" href="index.html"> <span class="myloc"></span></a> <br>
+      <span id="lu"></span>
+    </p>
 </footer>
+<script src="js/script.js"></script>
+
 </html>
