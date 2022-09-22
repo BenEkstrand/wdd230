@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/scroll-background.jpg");
+  background-image: url(/images/scroll-background.jpg);
   background-size: auto;
 }
 
@@ -31,7 +31,7 @@
   text-align: left;
   list-style-position: inside;
   font-size: large;
-  background-image: url("/images/scroll-background.jpg");
+  background-image: url(/images/scroll-background.jpg);
   background-size: auto;
   padding: 0.25in;
 }
