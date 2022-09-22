@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/week05/Scroll_Background.jpg");
+  background-image: url("week05/Scroll_Background.jpg");
 }
 
 .flex-container > div {
@@ -30,6 +30,6 @@
   text-align: left;
   list-style-position: inside;
   font-size: large;
-  background-image: url("/week05/Scroll_Background.jpg");
+  background-image: url("week05/Scroll_Background.jpg");
   padding: 0.25in;
 }
