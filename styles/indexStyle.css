@@ -1,14 +1,18 @@
 @charset "UTF-8";
 .flex-container {
   display: flex;
-  background-image: url("/week05/Scroll_Background.jpg");
+  background-image: url("week05/Scroll_Background.jpg");
   justify-content: center;
   align-items: center;
 }
 
 .flex-container > div {
-  background-image: url("/week05/Scroll_Background.jpg");
+  background-image: url("week05/Scroll_Background.jpg");
   margin: 10px;
   padding: 20px;
   font-size: 40px;
+}
+.index-body {
+  margin-right: 30%;
+  margin-left: 30%;
 }
