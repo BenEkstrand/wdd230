@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Oswald', sans-serif;
   background-image: url(/images/scroll-background.png);
   background-size: auto;
 }
@@ -31,6 +32,7 @@
   text-align: left;
   list-style-position: inside;
   font-size: large;
+  font-family: 'Oswald', sans-serif;
   background-image: url(/images/scroll-background.png);
   background-size: auto;
   padding: 0.25in;
