@@ -5,7 +5,7 @@ body {
   
   header, footer {
     font-family: 'Aclonica', sans-serif;
-    background: url(week03/images/scroll-background.png);
+    background: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg);
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -96,7 +96,7 @@ body {
   }
   
   .primary {
-    background-image: url(week03/images/scroll-background.png);
+    background-image: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg);
   }
   .secondary {
     background-color: #66666E;
