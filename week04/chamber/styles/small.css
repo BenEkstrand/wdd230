@@ -95,12 +95,12 @@ nav {
   text-align: center;
 }
 
-nav ul li.preston a {
+nav ul li.malburg a {
   background-color: rgba(0, 0, 0, 0.4);
   color: #00a8e8;
 }
 
-nav ul li.preston a:hover {
+nav ul li.malburg a:hover {
   color: #fff;
 }
 
