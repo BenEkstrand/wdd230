@@ -5,7 +5,17 @@ header, footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+}
+.social{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  padding-left: 3rem;
+}
+
+.social img{
+  width: 40px;
+  height: auto;
 }
 
 footer {
