@@ -1,52 +1,63 @@
 header .headings {
-  font-size: 1.2rem;;
+  font-size: 1.2rem;
 }
 
 header .motto {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 nav {
-  background-color: #66666E;
+  background-color: #66666e;
 }
 
 nav {
   width: 100%;
 }
-nav button {display: none;}
+nav button {
+  display: none;
+}
 
-nav ul.hidenav {display: flex;}
+nav ul.hidenav {
+  display: flex;
+}
 
 nav ul {
   max-width: auto;
   margin: 0;
 }
 
-nav ul {display: flex; }
-nav ul li {flex: 1 1 100%; }
+nav ul {
+  display: flex;
+}
 
-nav ul li {float: left;
-text-align: center;}
+nav ul li {
+  flex: 1 1 100%;
+}
+
+nav ul li {
+  float: left;
+  text-align: center;
+}
 
 nav ul li a {
   border: none;
-  border-right: 1px solid rgba(0,0,0,0.3);
-  padding: .6rem 1rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.6rem 1rem;
   flex: 1 1 auto;
-  background-color: #66666E;
+  background-color: #66666e;
   color: #fff;
 }
 
 main {
- max-width: 900px;
- margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 footer {
   max-width: 900px;
   text-align: center;
   align-items: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: 0 auto;
   display: block;
 }
@@ -54,6 +65,3 @@ footer {
 .placeholder {
   font-size: 1rem;
 }
-
-
-

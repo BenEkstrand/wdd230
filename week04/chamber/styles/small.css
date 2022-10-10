@@ -1,23 +1,22 @@
 
-html {
+/*html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-}
+}*/
 
 
-* {
+/* {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 body {
   font-size: 20px;
   font-family: "Aclonica", sans-serif;
 }
 
-header,
-footer {
+header,footer {
   font-family: "Aclonica", sans-serif;
   background: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg);
   display: flex;
@@ -36,13 +35,6 @@ footer {
   margin: 10px 0 0 5px;
 }
 
-.motto {
-  font-style: italic;
-  letter-spacing: 0.5pt;
-  font-size: 0.9rem;
-  margin: 0 0 0 18px;
-}
-
 .placeholder {
   font-family: "DM Sans", sans-serif;
   background-color: #66666e;
@@ -52,7 +44,7 @@ footer {
   justify-content: center;
   max-width: 1170px;
   padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Aclonica", sans-serif;
   font-size: 0.8rem;
   color: #fff;
   font-weight: bold;
@@ -68,7 +60,7 @@ nav button {
 
 nav {
   background-color: #66666e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Aclonica", sans-serif;
 }
 
 nav ul {
