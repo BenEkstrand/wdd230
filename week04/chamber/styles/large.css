@@ -1,9 +1,5 @@
-header .headings {
+header {
   font-size: 1.2rem;
-}
-
-header .motto {
-  font-size: 0.9rem;
 }
 
 nav {
@@ -65,3 +61,4 @@ footer {
 .placeholder {
   font-size: 1rem;
 }
+h1 { font-size: 40px; }
