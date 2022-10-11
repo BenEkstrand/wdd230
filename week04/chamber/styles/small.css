@@ -7,6 +7,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
+main {
+  font-family: "Aclonica", sans-serif;
+}
 .social {
   display: grid;
   grid-template-columns: 1fr 1fr;
