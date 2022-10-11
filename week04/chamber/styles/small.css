@@ -96,3 +96,10 @@ nav ul.open {
 h1 {
   font-size: 25px;
 }
+section img {
+  height: auto;
+  max-width: 100%;
+}
+.date {
+  padding-right: 1rem;
+}
