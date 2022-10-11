@@ -60,11 +60,12 @@ nav ul li a {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-nav ul li.preston a:hover {
-  color: #fff;
+nav ul li.active a {
+  background-color: rgba(0,0,0,0.08);
 }
 
 nav ul li a:hover {
+  color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
   color: #ac0303;
 }
