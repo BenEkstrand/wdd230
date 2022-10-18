@@ -5,7 +5,7 @@ const button = document.querySelector("button");
 button.addEventListener("click", function () {
   let chapter = input.value;
   if (input.value == "") {
-  alert ("Please add a chapter.");
+  alert ("Please add a Book and Chapter.");
   return false;
   }
   const listItem = document.createElement("li");
