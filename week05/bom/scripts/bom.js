@@ -4,8 +4,10 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", function () {
   let chapter = input.value;
-  input.value = "";
-
+  if (input.value == "") {
+  alert ("Please add a chapter.");
+  return false;
+  }
   const listItem = document.createElement("li");
   const listText = document.createElement("span");
   const listBtn = document.createElement("button");
