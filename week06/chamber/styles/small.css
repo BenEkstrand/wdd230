@@ -4,6 +4,7 @@ footer {
   background-image: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg);
   padding: 5px 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -49,7 +50,6 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
   margin: 0 0 5px 5px;
 }
 
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: rgba(0,0,0,0.08);
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 nav ul li a:hover {
@@ -95,7 +95,10 @@ nav ul.open {
   display: block;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Aclonica", sans-serif;
   margin: 10px;
 }
@@ -114,7 +117,11 @@ section {
   text-decoration: underline;
   padding-left: 1%;
 }
-#hero, #event, #weather, #news, #join {
+#hero,
+#event,
+#weather,
+#news,
+#join {
   height: 200px;
   border: none;
   background-color: #864f17;
@@ -123,7 +130,7 @@ section {
 #spotlight {
   margin-top: 10px;
   height: auto;
-  background-color:#f8e8c8 ;
+  background-color: #f8e8c8;
 }
 #spotlight h3 {
   text-align: center;
@@ -150,13 +157,15 @@ section {
   left: 16px;
 }
 
-#spot1, #spot2, #spot3 {
+#spot1,
+#spot2,
+#spot3 {
   height: 100%;
   width: 100%;
   border: 1px solid #f8e8c8;
   margin: 0 auto;
   margin-bottom: 10px;
-  background-color:#f8e8c8 ;
+  background-color: #f8e8c8;
 }
 #spot3 {
   display: none;
@@ -203,7 +212,7 @@ section {
   position: absolute;
   top: 25px;
   left: 25px;
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 #news {
   background-color: #3d2309;
@@ -224,6 +233,52 @@ section img {
 body {
   background-color: #f8e8c8;
 }
-.wrapper{
-min-height: calc(100vh - 50px);
+.wrapper {
+  min-height: calc(100vh - 50px);
+}
+.typog {
+  width: 50rem;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.typog th {
+  background-color: #66666e;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+  outline-style: inset;
+  outline-color: black;
+}
+
+.typog td {
+  margin-top: auto;
+  width: 50rem;
+  height: 2em;
+  outline-style: inset;
+  outline-color: black;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+  
+}
+.colors th {
+  background-color: #66666E;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.colors td{
+  margin-top: auto;
+  width: 20%;
+  height: 15em;
+  outline-style: inset;
+  outline-color: black; 
 }
