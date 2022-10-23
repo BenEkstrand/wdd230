@@ -60,7 +60,7 @@
 
   #hero {
     height: auto;
-    width: 100%;
+    width: auto;
     grid-area: 1/2/3/4;
   }
 

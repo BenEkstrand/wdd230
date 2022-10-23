@@ -40,9 +40,11 @@
     </ul>
 </nav>
 <main>
-
   <section id="hero">
-    <img src="images/Malburg.webp" alt="Malburg Map">
+   <!-- <img src="images/Malburg.webp" alt="Malburg Map">  -->
+   <picture>
+    <img src="images/wdd230-org.jpg" alt="Hero Image Replacement Week 6" sizes="50vw" srcset="images/small.webp 200w, images/medium.webp 700w, images/large.webp 1100w">
+    </picture>
     <button>Let the Adventure <br> Begin!</button>
 </section>
 <section id="event">
@@ -53,13 +55,13 @@
 </div>
 </section>
 <section id="weather">
-    <img src="images/weather.webp" alt="Clouds and blue sky">
+    <img src="images/weather.webp" alt="Dark and Full of Terror">
     <div class="weatherInfo">
         <h3>Weather:</h3>
         <p>Current Temp: <span id="temp"></span></p>
         <p>Wind Speed: <span id="speed"></span></p>
         <p>Wind Chill: <span id="chill"></span></p>
-        <p>Radiation Levels: <span id="rads"></span></p>
+        <p>Radiation Levels: <span id="rads">&#9762; &#9762; &#9762;</span></p>
     </div>
 </section>
 <section id="news">
@@ -101,6 +103,7 @@
 </footer>
 <script src="scripts/menu.js"></script>
 <script defer src="scripts/dates.js"></script>
+<script src="scripts/windchill.js"></script>
 </body>
 
 </html>
