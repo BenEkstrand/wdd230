@@ -23,7 +23,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header style="background-image: url('images/scroll-background.webp');">
+      <header style="background-image: url('images/scroll-background.webp')">
         <h1>Malburg: The Cursed City - Chamber of Commerce</h1>
         <div class="social">
           <a href="https://facebook.com" target="_blank">
@@ -36,9 +36,9 @@
         <div class="date"></div>
         <aside></aside>
       </header>
-      <nav>
-        <button id="hamburger-btn"><span>&#9776;</span><span>X</span></button>
-        <ul id="mainNav">
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">☰</button>
+        <ul id="primaryNav" class="hide">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="target-audience.html">Target Audience</a></li>
           <li><a href="color-scheme.html">Color Scheme</a></li>
@@ -134,7 +134,7 @@
         </section>
       </main>
     </div>
-    <footer style="background-image: url('images/scroll-background.webp');">
+    <footer style="background-image: url('images/scroll-background.webp')">
       <p>
         &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
         Fall 2022 |

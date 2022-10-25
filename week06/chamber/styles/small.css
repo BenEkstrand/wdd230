@@ -75,24 +75,8 @@ nav button:hover {
   color: #ac0303;
 }
 
-nav ul.open {
-  display: block;
-}
-
-#hamburger-btn span:nth-child(1) {
-  display: block;
-}
-
-#hamburger-btn span:nth-child(2) {
+nav ul.hide {
   display: none;
-}
-
-#hamburger-btn.open span:nth-child(1) {
-  display: none;
-}
-
-#hamburger-btn.open span:nth-child(2) {
-  display: block;
 }
 
 h1,

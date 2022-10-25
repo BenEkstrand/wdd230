@@ -1,10 +1,8 @@
-function toggleMenu() {
-  document.getElementById("mainNav").classList.toggle("open");
-  document.getElementById("hamburger-btn").classList.toggle("open");
-}
 
-const x = document.getElementById("hamburger-btn");
-x.onclick = toggleMenu;
+// Toggle hamburger menu on/off
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("hide");
+}
 
 // select the elements to manipulate (output to)
 const datefield = document.querySelector(".date");
