@@ -1,0 +1,268 @@
+header,
+footer {
+  font-family: "Aclonica", sans-serif;
+  /* background-image: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg); */
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  font-family: "Aclonica", sans-serif;
+}
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+.social img {
+  width: 40px;
+  height: auto;
+}
+
+footer {
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+}
+
+nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-left: 5px;
+}
+
+nav {
+  background-color: #66666e;
+  font-family: "Aclonica", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 5px 5px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  color: #ac0303;
+}
+
+nav button:hover {
+  color: #ac0303;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Aclonica", sans-serif;
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+section {
+  margin: 5px;
+}
+#join {
+  display: none;
+}
+.link {
+  color: #dfb579;
+  text-decoration: underline;
+  padding-left: 1%;
+}
+#hero,
+#event,
+#weather,
+#news,
+#join {
+  height: 200px;
+  border: none;
+  background-color: #864f17;
+  position: relative;
+}
+#spotlight {
+  margin-top: 10px;
+  height: auto;
+  background-color: #f8e8c8;
+}
+#spotlight h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.spotlightImage {
+  height: 100%;
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.spotlightImage:hover {
+  opacity: 0.5;
+  box-shadow: 5px 5px 5px #264653;
+}
+.spotInfo {
+  text-align: center;
+  padding: 30px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#spot1,
+#spot2,
+#spot3 {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #f8e8c8;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #f8e8c8;
+}
+#spot3 {
+  display: none;
+}
+#hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: inherit;
+}
+#hero button {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: #dfb579;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Aclonica", sans-serif;
+  border: #66666e;
+  border-radius: 10px;
+}
+#hero button:hover {
+  background-color: #78909960;
+  color: #fbfbfb;
+}
+#event img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.eventInfo {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  color: #fff;
+  font-family: "Aclonica", sans-serif;
+}
+#weather img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.weatherInfo {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#news {
+  background-color: #3d2309;
+  color: #fbfbfb;
+  padding: 15px;
+}
+#news h3 {
+  padding-bottom: 10px;
+}
+
+section img {
+  height: auto;
+  max-width: 100%;
+}
+.date {
+  padding-right: 1rem;
+}
+body {
+  background-color: #f8e8c8;
+}
+.wrapper {
+  min-height: calc(100vh - 50px);
+}
+.typog {
+  width: 50rem;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.typog th {
+  background-color: #66666e;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+  outline-style: inset;
+  outline-color: black;
+}
+
+.typog td {
+  margin-top: auto;
+  width: 50rem;
+  height: 2em;
+  outline-style: inset;
+  outline-color: black;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+  
+}
+.colors th {
+  background-color: #66666E;
+  color: white;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.colors td{
+  margin-top: auto;
+  width: 20%;
+  height: 15em;
+  outline-style: inset;
+  outline-color: black; 
+}
