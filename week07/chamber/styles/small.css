@@ -293,7 +293,13 @@ body {
   font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
-  font-family: Roboto, san-serif;
+  font-family: "Aclonica", sans-serif;
+}
+#dangers{
+  background-color: #380202;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Aclonica", sans-serif;
 }
 /* Visited */
 #last-visit-p {
