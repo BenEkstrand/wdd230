@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Malburg: The Cursed City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce cite for Malburg the cursed city by Ben Ekstrand for WDD 230 in Fall 2022"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="shortcut-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="background-image: url('images/scroll-background.webp')">
+        <h1>Malburg: The Cursed City - Chamber of Commerce</h1>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="Facebook logo" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram logo" />
+          </a>
+        </div>
+        <div class="date"></div>
+        <aside></aside>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">☰</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="color-scheme.html">Color Scheme</a></li>
+          <li><a href="typography.html">Typography</a></li>
+        </ul>
+      </nav>
+      <main class="discover">
+        <h2 class="discover-header">Discover Point of the Mountain</h2>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery1.jpg" alt="Rainbow Over Field">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Rainbow Over Field</h3>
+                    <p class="fact">POMFact: We are home to the number 1 private school in the nation!</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery2.jpg" alt="Snowcovered Mountains">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Snowcovered Mountains</h3>
+                    <p class="fact">POMFact: Our town population is 121,600, and about one third of our residents are families with children under the age of 18!</p>
+                </figcaption>   
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery3.jpg" alt="Misty Mountains Surrounding Lake">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Misty Mountains Surrounding Lake</h3>
+                    <p class="fact">POMFact: We have over 180 days of sunny weather annually!</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery4.jpg" alt="Foggy Forest">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Foggy Forest</h3>
+                    <p class="fact">POMFact: Our town has one of the highest startup business success rates in the nation!</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery5.jpg" alt="Blue Skies, Clouds, and Grass">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Blue Skies, Clouds, and Grass</h3>
+                    <p class="fact">POMFact: Our average temperature is 56 degrees, but our temperatures range from 10 degrees in the winter and 98 in the summer!</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/gallery6.jpg" alt="Sunset Over Lake">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Sunset Over Lake</h3>
+                    <p class="fact">POMFact: Over half of our residents are skiers, and our public schools have FREE ski programs during the winter!</p>
+                </figcaption>
+            </figure>
+    </main>
+    </div>
+    <footer style="background-image: url('images/scroll-background.webp')">
+      <p>
+        &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
+        Fall 2022 |
+        <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
+      </p>
+      <p>Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span></p>
+      <p id="last-visit-p"> It has been <span id="last-visit">4</span> days since your last visit.</p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script defer src="scripts/dates.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>

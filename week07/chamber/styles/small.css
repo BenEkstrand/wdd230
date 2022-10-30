@@ -31,7 +31,7 @@ footer {
   font-size: 0.9rem;
   margin: 0 auto;
   display: block;
-  height: 50px;
+  height: 100%;
 }
 
 nav button {
@@ -265,4 +265,43 @@ body {
   height: 15em;
   outline-style: inset;
   outline-color: black; 
+}
+/* Discover Section */
+.discover-header {
+  display: block;
+  text-align: center;
+}
+.discover img {
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 #bbb;
+  transition: 0.3s;
+  overflow: hidden;
+  margin: 2%;
+}
+.caption {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Aclonica", sans-serif;
+}
+.fact {
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  font-family: Roboto, san-serif;
+}
+/* Visited */
+#last-visit-p {
+  text-align: center;
+  padding: 1rem;
+  background-color: #380202;
+  color: #fbfbfb;
+  font-family: "Aclonica", sans-serif;;
+  font-size: .8rem;
+  margin: 0;
 }
