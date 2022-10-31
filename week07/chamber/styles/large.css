@@ -2,7 +2,9 @@
   header {
     font-size: 1.2rem;
   }
-
+  .social{
+    display: flex;
+  }
   nav {
     background-color: #66666e;
   }
