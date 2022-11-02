@@ -1,16 +1,17 @@
-//Banner
-let banner = document.getElementById("banner");
-let dayOfWeek = date.getDay();
-if (dayOfWeek == 1 || dayOfWeek == 2) {
-    banner.style.display = "block";
-} else {
-    banner.style.display = "none";
-}
+//Copyright//
+document.getElementById('copyrightyear').innerHTML = new
+Date().getFullYear();
 
 //Last site update//
 const lastUpdate = document.querySelector("#lastUpdate");
-lastUpdate.innerHTML = date.toLocaleDateString("en-UK", options);
+lastUpdate.innerHTML = document.lastModified;
 
-//Copyright//
-const copyrightyear = document.getElementById("copyrightyear");
-copyrightyear.textContent = new Date().getFullYear();
+//Banner
+// let ddate = new Date();
+// let banner = document.getElementById("banner");
+// let dayOfWeek = ddate.getDay();
+// if (dayOfWeek == 1 || dayOfWeek == 2) {
+//     banner.style.display = "block";
+// } else {
+//     banner.style.display = "none";
+// }

@@ -117,6 +117,7 @@
     margin: 0 auto;
     display: block;
   }
+  
   .discover {
     display: flex;
     flex-direction: column;

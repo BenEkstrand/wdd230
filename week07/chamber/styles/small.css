@@ -1,7 +1,6 @@
 header,
 footer {
   font-family: "Aclonica", sans-serif;
-  /* background-image: url(https://i.pinimg.com/originals/53/b4/44/53b444ea99a7b8c7e90631ea6e81e877.jpg); */
   padding: 5px 0;
   display: flex;
   flex-direction: column;
@@ -151,9 +150,7 @@ section {
   margin-bottom: 10px;
   background-color: #f8e8c8;
 }
-#spot3 {
-  display: none;
-}
+
 #hero img {
   height: 100%;
   width: 100%;
@@ -305,6 +302,8 @@ img[data-src] {
 #dangers{
   background-color: #380202;
   color: white;
+  height: 100%;
+  width: auto;
   font-size: 2.5rem;
   font-family: "Aclonica", sans-serif;
 }
