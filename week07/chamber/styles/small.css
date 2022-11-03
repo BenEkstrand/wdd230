@@ -11,7 +11,8 @@ main {
   font-family: "Aclonica", sans-serif;
 }
 .social {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   grid-template-columns: 1fr, 1fr;
   grid-column-gap: 5px;
   padding-left: 3rem;
@@ -19,8 +20,8 @@ main {
 }
 
 .social img {
-  width: auto;
-  height: auto;
+max-width: 75%;
+max-height: auto;
 }
 
 footer {
@@ -106,7 +107,8 @@ section {
 #news,
 #join {
   height: 200px;
-  border: none;
+  border-color: #0000;
+  border-radius: 5px;
   background-color: #864f17;
   position: relative;
 }
@@ -171,6 +173,7 @@ section {
 #hero button:hover {
   background-color: #78909960;
   color: #fbfbfb;
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 #event img {
   height: 100%;
