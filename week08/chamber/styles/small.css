@@ -410,9 +410,13 @@ form label input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 150px;
+  
 }
 
 #thank-you h1 {
-  color: #dd1f28;
+  color: #4d0202;
+}
+#thank-img{
+  display: flex;
+  align-content: center;
 }
