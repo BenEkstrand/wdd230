@@ -343,6 +343,7 @@ h2, join {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .formDiv {
@@ -361,7 +362,7 @@ h2, join {
 }
 
 form label {
-  color: #dd1f28;
+  color: #4d0202;
   display: block;
   padding: 1rem;
 }
@@ -379,6 +380,15 @@ form label input {
   margin-right: .75rem;
 }
 
+.chamberJoin{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+}
+
 .membership {
   display: flex;
 }
@@ -388,11 +398,11 @@ form label input {
 }
 
 #membership_info h3 {
-  color: #dd1f28;
+  color: #4d0202;
 }
 
 #membership_info div h4 {
-  color: #dd1f28;
+  color: #4d0202;
 }
 
 #thank-you {
