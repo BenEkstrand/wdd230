@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+body{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 200%;
+    box-shadow: 10px 10px 20px rgb(74, 133, 172);
+    max-width: 350px;
+    width: 50%;
+}
+
+table, th, tr, td {
+    border: 1px solid gray;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead {
+    background-color: rgb(0, 68, 253);
+    color: white;
+}
+
+thead tr:nth-child(1) {
+    /* line-height: 300%; */
+    font-size: x-large;
+}
+
+thead tr:nth-child(2) {
+    background-color: rgb(74, 133, 172);
+    color: white;
+}
+
+thead tr th {
+    border-color: gray;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+tfoot {
+    background-color: rgb(0, 193, 252);
+    font-size: smaller;
+}
+
+.goalExceeded {
+    background-color: rgb(74, 133, 172);
+    color: white;
+    border-color: gray;
+}
+
+#blackFriday {
+    font-style: italic;
+}
