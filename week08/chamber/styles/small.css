@@ -325,3 +325,84 @@ img[data-src] {
   font-size: .8rem;
   margin: 0;
 }
+
+/*-------------Join-------------*/
+h2, join {
+  text-align: center;
+  padding: 1rem;
+  background-color: #380202;
+  color: #fbfbfb;
+  font-family: "Aclonica", sans-serif;;
+  font-size: .8rem;
+  margin-top: 2;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.joinMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formDiv {
+  width: 90%;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+
+.formDiv form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+form label {
+  color: #dd1f28;
+  display: block;
+  padding: 1rem;
+}
+
+form div {
+  display: block;
+  padding: 1rem;
+}
+
+form label input {
+  width: 90%;
+  display: block;
+  font-size: 1rem;
+  padding: .75rem;
+  margin-right: .75rem;
+}
+
+.membership {
+  display: flex;
+}
+
+.membership label {
+  display: inline;
+}
+
+#membership_info h3 {
+  color: #dd1f28;
+}
+
+#membership_info div h4 {
+  color: #dd1f28;
+}
+
+#thank-you {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+#thank-you h1 {
+  color: #dd1f28;
+}
