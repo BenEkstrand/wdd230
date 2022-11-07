@@ -45,6 +45,7 @@ nav button {
 nav {
   background-color: #66666e;
   font-family: "Aclonica", sans-serif;
+  min-width: 550px;
 }
 
 nav ul {
@@ -106,7 +107,6 @@ section {
 #weather,
 #news,
 #join {
-  height: 200px;
   border-color: #0000;
   border-radius: 5px;
   background-color: #864f17;
@@ -221,6 +221,8 @@ section img {
 }
 body {
   background-color: #f8e8c8;
+  min-height: 100vh;
+  min-width: 550px;
 }
 .wrapper {
   min-height: calc(100vh - 50px);
@@ -358,7 +360,6 @@ h2, join {
 .formDiv form {
   display: flex;
   flex-direction: column;
-  
 }
 
 form label {
@@ -370,14 +371,20 @@ form label {
 form div {
   display: block;
   padding: 1rem;
+  max-width: 90%;
 }
 
 form label input {
-  width: 90%;
+  max-width: 90%;
   display: block;
   font-size: 1rem;
   padding: .75rem;
   margin-right: .75rem;
+  resize: vertical;
+}
+
+form label input[type=text]:focus {
+  border: 3px solid #555;
 }
 
 .chamberJoin{
