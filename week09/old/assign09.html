@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ben Ekstrand's Assignments</title>
+<style>
+table, th, td {
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.btn-group button {
+    background-color: #04AA6D; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left;  
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:not(:last-child) {
+    border-right: none; 
+}
+
+.btn-group button:hover {
+    background-color: #014A04;
+}
+</style>
+</head>
+<body>
+<h1>Country Information</h1>
+<div class="btn-group" style="width:100%">
+  <button style="width:25%" onClick="usaDoc()">USA</button>
+  <button style="width:25%" onClick="canadaDoc()">Canada</button>
+  <button style="width:25%">Mexico</button>
+  <button style="width:25%">Russia</button>
+</div>
+<br>
+<br>
+<table id="countries">
+</table>
+<script>
+function usaDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    myFunction(this);
+  }
+  xhttp.open("GET", "usa.xml");
+  xhttp.send();
+}
+function myFunction(xml) {
+  const xmlDoc = xml.responseXML;
+  const x = xmlDoc.getElementsByTagName("USAINFO");
+  let table="<tr><th>City</th><th>Population</th></tr>";
+  for (let i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("CITY")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("POP")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("countries").innerHTML = table;
+}
+</script>
+<script>
+function canadaDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    myFunction(this);
+  }
+  xhttp.open("GET", "canada.xml");
+  xhttp.send();
+}
+function myFunction(xml) {
+  const xmlDoc = xml.responseXML;
+  const x = xmlDoc.getElementsByTagName("CANADAINFO");
+  let table="<tr><th>City</th><th>Population</th></tr>";
+  for (let i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("CITY")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("POP")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("countries").innerHTML = table;
+}
+
+</script>
+</body>
+</html>

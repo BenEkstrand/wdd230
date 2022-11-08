@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ARTICLE PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<USA>
+<USAINFO lang="">
+  <CITY>New York</CITY>
+  
+  <POP>8,143,197</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Los Angeles</CITY>
+  
+  <POP>3,844,829</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Chicago</CITY>
+  
+  <POP>2,842,518</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Houston</CITY>
+  
+  <POP>2,016,582</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Philadelphia</CITY>
+  
+  <POP>1,463,281</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Phoenix</CITY>s
+  
+  <POP>1,461,575</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>San Antonio</CITY>
+  
+  <POP>1,256,509</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>San Diego</CITY>
+  
+  <POP>1,255,540</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>Dallas</CITY>
+  
+  <POP>1,213,825</POP>
+</USAINFO>
+<USAINFO lang="">
+  <CITY>San Jose</CITY>
+  
+  <POP>912,332</POP>
+</USAINFO>
+</USA>

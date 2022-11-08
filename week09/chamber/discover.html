@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Malburg: The Cursed City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce cite for Malburg the cursed city by Ben Ekstrand for WDD 230 in Fall 2022"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="background-image: url('images/scroll-background.webp')">
+        <h1>Malburg: The Cursed City - Chamber of Commerce</h1>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="Facebook Logo" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram Logo" />
+          </a>
+        </div>
+        <div class="date"></div>
+        <aside></aside>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">☰</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="typography.html">Coming Soon!</a></li>
+          <li><a href="typography.html">Coming Soon!</a></li>
+        </ul>
+      </nav>
+      <main class="discover">
+        <h2 class="discover-header">Malburg City - Thriving and Surviving</h2>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/crater.webp" alt="Malburg Crater Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Crater Impact Site</h3>
+                    <p class="fact">Point of Interest: The site of the destruction and ruin of the city, centered near Malburg University and pulsing with Warpstone shards for the taking!</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/university.webp" alt="Malburg University Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Malburg University</h3>
+                    <p class="fact">Point of Interest: Once the pinnacle of innovation, it now lies abandoned in the chaos that ensued with the destruction of the city, what riches lie in wait to find?</p>
+                </figcaption>   
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/forgottenruins.webp" alt="Malburg Biological Preserve Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Malburg Biological Preserve</h3>
+                    <p class="fact">Point of Interest: Malburg was once home to the premier biological sanctuary and preservation establishment in all of the Midlands, now, little is known of the conditions of once great habitats or of the inhabitants therein. Rare and sought after creatures are sure to be found, if they have not been twisted by the Warpstone's corruption.  </p>
+                </figcaption>
+            </figure>
+            <h2 class="discover-header" id="dangers">💀 Local Dangers and Threats to Life 💀</h2>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/dwarves.webp" alt="Dark Iron Dwarves Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Dark Iron Dwarves</h3>
+                    <p class="fact">Danger: Sighting of Dark Iron Dwarves have been amassing near the city center appearing from seemingly nowhere, use extreme caution when approaching any suspected Dark Iron sites and they have been known to capture and enslave unwitting adventurers. Or worse..</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/orcs.webp" alt="Skorne Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Skorne Warbands</h3>
+                    <p class="fact">Danger: Skorne warbands descended on Malburg from the surrounding hills and forests to plunder the now defenseless city. The scant few who managed to flee the city alive were left physically twisted and scarred, and mentally shattered. They do not take prisoners and have been known to eat the fallen. Avoid at all costs.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/cultist.webp" alt="Cultist of Bajital Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Cultists of Bajital</h3>
+                    <p class="fact">Danger: The Cultists of Bajital are a mysterious organization that has been heavily recruiting within the city, whipping their members into a frenzy and serving a master that is rumored to be a demon of darkness. Do not engage with them lest you be lured like a siren lures a ship to the rocks. </p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/abomination.webp" alt="Mutated Giant Abomination Image">            
+                </picture>
+                <figcaption class="caption">
+                    <h3>Mutated Giant Abomination</h3>
+                    <p class="fact">Danger: At least one giant has been seen and heard crashing its way throughout the ruins of Malburg as it seeks its fill of adventurers and creatures alike. This beast is a twisted abomination of its mountainous cousin, corrupted by the Warpstone's power, enraging, twisting and empowering it. If you hear its bone-chilling roar, it is probably too late for you.</p>
+                </figcaption>
+            </figure>
+            <figure class="card">
+                <picture>
+                    <img src="images/placeholder.webp" data-src="images/undead.webp" alt="Undead Image">            
+                </picture>  
+                <figcaption class="caption">
+                    <h3>Undead Former Citizens and Adventurers</h3>
+                    <p class="fact">Danger: In the midst of the initial chaos, twisted dark things emerged (whether they were created by the strange dark magic of the meteor, were lurking in the depths beneath the city, or both is unknown) to sew further chaos, and even some of the dead rose again in ghastly forms to devour remaining survivors. Hold yourself up at night and pray they do not find you.</p>
+                </figcaption>
+            </figure>
+    </main>
+    </div>
+    <footer style="background-image: url('images/scroll-background.webp')">
+      <p>
+        &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
+        Fall 2022 |
+        <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
+      </p>
+      <p>Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span></p>
+      <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/lazyload.js"></script>
+  </body>
+</html>

@@ -39,11 +39,11 @@
           <li><a href="typography.html">Coming Soon!</a></li>
         </ul>
       </nav>
+
       <h2 id="jointitle">Join Us!</h2>
       <main class="joinMain">
-        <div style="background-image: url('images/scroll-background-vert.webp');" class="formDiv">
+        <div style="background-image: url('images/scroll-background-vert.webp')" class="formDiv">
         <form method="get" action="thankyou.html">
-            <fieldset>
             <label>First Name* <input type="text" name="fname" required placeholder="Aldwin"></label>
 
             <label>Last Name* <input type="text" name="lname" required placeholder="Frostbeard"></label>
@@ -56,15 +56,8 @@
 
             <label>Business Name* <input type="text" name="business" required placeholder="Algernon's Elixirs"></label>
 
-            <label for="business-description">Business Description
+            <label>Business Description <input type="text" name="business-description"></label>
 
-            <textarea id="business-description" name="description" placeholder="Business Description">
-            
-
-            </textarea>
-        </label>
-            </fieldset>
-            <fieldset>
             <div class="membership">Membership Level* 
                 
                 <label for="np">Non-Profit<input type="radio" id="np" name="np" value="non-profit"></label>
@@ -78,9 +71,11 @@
                 
                 <label for="gold">Gold ($1000)<input type="radio" id="gold" name="gold" value="gold"></label>
             </div>
+
             <input id="formDate" type="hidden" name="date/time" value="date/time">
+
             <input class="chamberJoin" type="submit" value="Join the Chamber">
-            </fieldset>
+
         </form></div>
         <div id="membership_info">
             <h3>Membership Details</h3>

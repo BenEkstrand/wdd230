@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Malburg: The Cursed City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce cite for Malburg the cursed city by Ben Ekstrand for WDD 230 in Fall 2022"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="background-image: url('images/scroll-background.webp')">
+        <h1>Malburg: The Cursed City - Chamber of Commerce</h1>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="Facebook Logo" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram Logo" />
+          </a>
+        </div>
+        <div class="date"></div>
+        <aside></aside>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">☰</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="typography.html">Coming Soon!</a></li>
+          <li><a href="typography.html">Coming Soon!</a></li>
+        </ul>
+      </nav>
+      <main class="home">
+        <section id="hero">
+          <picture>
+            <img
+              src="images/Malburg.webp"
+              alt="Malburg City Map"
+              sizes="50vw"
+              srcset="
+                images/small.webp   200w,
+                images/medium.webp  700w,
+                images/large.webp  1100w
+              "
+            />
+          </picture>
+          <button onclick="location.href='discover.html'" type="button">
+            Let the Adventure <br />
+            Begin!
+          </button>
+        </section>
+        <section id="event">
+          <img src="images/soldiers.webp" alt="Gladiator Tournament Image" />
+          <div class="eventInfo">
+            <h3>Last Man Standing Tournament</h3>
+            <p>Winter Solstice - Dawn</p>
+          </div>
+        </section>
+        <section id="weather">
+          <img src="images/weather.webp" alt="Dark and Full of Terror" />
+          <div class="weatherInfo">
+            <h3>Weather:</h3>
+            <p>Current Temp: <span id="temp"></span></p>
+            <p>Wind Speed: <span id="speed"></span></p>
+            <p>Wind Chill: <span id="chill"></span></p>
+            <p>
+              Radiation Levels: <span id="rads">&#9762; &#9762; &#9762;</span>
+            </p>
+          </div>
+        </section>
+        <section id="news">
+          <h3>Oracle's Intelligence:</h3>
+          <p>
+            Dark Iron Dwarves rumored to be emerging en masse throughout eastern
+            district. Use extreme caution to avoid engaging. Mysterious
+            forest-of-no-return appears to be moving on its own
+            <span class="link">More...</span>
+          </p>
+        </section>
+        <section id="spotlight">
+          <h3>Business Spotlight</h3>
+          <section id="spot1">
+            <img
+              src="images/elixir.webp"
+              alt="Algernon's Elixirs"
+              class="spotlightImage"
+            />
+            <div class="spotInfo">
+              <h4>Algernon's Elixirs</h4>
+            </div>
+          </section>
+          <section id="spot2">
+            <img
+              src="images/blacksmith.webp"
+              alt="Arcturo's Arms and Armor Image"
+              class="spotlightImage"
+            />
+            <div class="spotInfo">
+              <h4>Arcturo's Arms and Armor</h4>
+            </div>
+          </section>
+          <section id="spot3">
+            <img
+              src="images/gladiator.webp"
+              alt="Griswald's Gladiator Training Image"
+              class="spotlightImage"
+            />
+            <div class="spotInfo">
+              <h4>Griswald's Gladiator Training</h4>
+            </div>
+          </section>
+        </section>
+        <section id="join">
+          <div id="joinButton">
+            <button onclick="location.href='join.html'" type="button">Join</button>
+          </div>
+          <p>Stand Together Against Evil in the Council!</p>
+        </section>
+      </main>
+    </div>
+    <footer style="background-image: url('images/scroll-background.webp')">
+      <p>
+        &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
+        Fall 2022 |
+        <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
+      </p>
+      <p>Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span></p>
+      <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>
