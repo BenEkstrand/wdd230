@@ -350,11 +350,10 @@ h2, join {
 
 .formDiv {
   width: 90%;
-  border: 1px solid black;
   margin: 10px;
   display: flex;
   align-items: center;
-  max-width: 800px;
+  max-width: 750px;
 }
 
 .formDiv form {
@@ -387,6 +386,12 @@ form label input[type=text]:focus {
   border: 3px solid #555;
 }
 
+#business-description{
+  width: 90%;
+  display: block;
+  padding: .5rem;
+  max-width: 750px;
+}
 .chamberJoin{
   text-align: center;
   display: flex;
