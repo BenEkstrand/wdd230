@@ -408,6 +408,9 @@ form label input[type=text]:focus {
 .membership label {
   display: inline;
 }
+#membership_info{
+  max-width: 725px;
+}
 
 #membership_info h3 {
   color: #4d0202;
