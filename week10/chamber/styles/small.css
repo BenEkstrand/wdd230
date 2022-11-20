@@ -192,21 +192,21 @@ section {
   width: 100%;
   object-fit: cover;
 }
-.weatherInfo h3 {
+.weatherInput h3 {
   margin-bottom: 0;
   text-align: center;
 }
-.weatherInfo {
+.weatherInput {
   position: absolute;
   top: 25px;
   left: 25px;
   background-color: rgba(255, 255, 255, 0.6);
 }
-.weatherInfo figure {
+.weatherInput figure {
   text-align: center;
   margin-top: 0;
 }
-.weatherInfo p {
+.weatherInput p {
   font-size: .8rem;
   margin: 5px;
   text-align: left;
