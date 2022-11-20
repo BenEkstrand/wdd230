@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Malburg: The Cursed City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce cite for Malburg the cursed city by Ben Ekstrand for WDD 230 in Fall 2022"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header style="background-image: url('images/scroll-background.webp')">
+        <h1>Malburg: The Cursed City - Chamber of Commerce</h1>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="Facebook Logo" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="Instagram Logo" />
+          </a>
+        </div>
+        <div class="date"></div>
+        <aside></aside>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">☰</button>
+        <ul id="primaryNav" class="hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="typography.html">Coming Soon!</a></li>
+        </ul>
+      </nav>
+      <h2 id="jointitle">Join Us!</h2>
+      <main class="joinMain">
+        <div
+          style="background-image: url('images/scroll-background-vert.webp')"
+          class="formDiv"
+        >
+          <form method="get" action="thankyou.html">
+            <fieldset>
+              <label
+                >First Name*
+                <input type="text" name="fname" required placeholder="Aldwin"
+              /></label>
+
+              <label
+                >Last Name*
+                <input
+                  type="text"
+                  name="lname"
+                  required
+                  placeholder="Frostbeard"
+              /></label>
+
+              <label
+                >Job Title
+                <input type="text" name="title" placeholder="Necromancer"
+              /></label>
+
+              <label
+                >Email*
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Boneharvester@cryptmaster.com"
+              /></label>
+
+              <label
+                >Phone*
+                <input
+                  type="tel"
+                  name="phone"
+                  required
+                  placeholder="*** *** ****"
+              /></label>
+
+              <label
+                >Business Name*
+                <input
+                  type="text"
+                  name="business"
+                  required
+                  placeholder="Algernon's Elixirs"
+              /></label>
+
+              <label for="business-description"
+                >Business Description
+
+                <textarea
+                  id="business-description"
+                  name="description"
+                  placeholder="Business Description"
+                >
+                </textarea>
+              </label>
+            </fieldset>
+            <fieldset>
+              <div class="membership">
+                Membership Level*
+
+                <label for="np"
+                  >Non-Profit<input
+                    type="radio"
+                    id="np"
+                    name="np"
+                    value="non-profit"
+                /></label>
+
+                <label for="bronze"
+                  >Bronze ($250)<input
+                    type="radio"
+                    id="bronze"
+                    name="bronze"
+                    value="bronze"
+                /></label>
+
+                <label for="silver"
+                  >Silver ($600)<input
+                    type="radio"
+                    id="silver"
+                    name="silver"
+                    value="silver"
+                /></label>
+
+                <label for="gold"
+                  >Gold ($1000)<input
+                    type="radio"
+                    id="gold"
+                    name="gold"
+                    value="gold"
+                /></label>
+              </div>
+              <input
+                id="formDate"
+                type="hidden"
+                name="date/time"
+                value="date/time"
+              />
+              <input
+                class="chamberJoin"
+                type="submit"
+                value="Join the Chamber"
+              />
+            </fieldset>
+          </form>
+        </div>
+        <div id="membership_info">
+          <h3>Membership Details</h3>
+          <div>
+            <h4>Non-Profit</h4>
+            <ul>
+              <li>Membership Sigil.</li>
+              <li>Priority access to mead hall.</li>
+              <li>Member pricing for workshops, meetings, and events.</li>
+              <li>Subscription to the Chamber weekly newsletter.</li>
+              <li>Advertisement and sponsorship opportunities.</li>
+              <li>
+                Opportunity to send business announcements through the Guildhall
+                Network and Translocation Hub.
+              </li>
+              <li>Discounted prices at Arcturo's Arms and Armor.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Bronze</h4>
+            <ul>
+              <li>All non-profit benefits plus:</li>
+              <li>Minor spell of Enchantment applied to Business listing.</li>
+              <li>
+                25% discount on Hex removal, curse-breaking, minor health
+                elixirs.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Silver</h4>
+            <ul>
+              <li>All bronze benefits plus:</li>
+              <li>50% on Hex removal, curse-breaking, minor health elixirs.</li>
+              <li>
+                Phantasmal projection of Business upon gazing at posted
+                advertisement.
+              </li>
+              <li>Special event banners at all gladiatorial combat arenas.</li>
+              <li>
+                Monthly personal visit from the sitting Council on business
+                matters.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Gold</h4>
+            <ul>
+              <li>All silver benefits plus:</li>
+              <li>Free admission to Council hosted events.</li>
+              <li>
+                Free reanimation/resurrection for up to 4 employees and 50% off
+                for all others on Hex removal, curse-breaking, minor health
+                elixirs.
+              </li>
+              <li>
+                Personal endorsement of business by reigning gladiatorial
+                champion (while living).
+              </li>
+              <li>
+                Free travel through Translocation Network up to 30 times
+                monthly.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer style="background-image: url('images/scroll-background.webp')">
+      <p>
+        &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
+        Fall 2022 |
+        <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
+      </p>
+      <p>
+        Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span>
+      </p>
+      <p id="last-visit-p">
+        It has been <span id="last-visit"></span> days since your last visit.
+      </p>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+  </body>
+</html>
