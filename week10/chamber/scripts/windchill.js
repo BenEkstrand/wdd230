@@ -5,7 +5,7 @@ const chill = document.querySelector("#chill");
 const weatherIcon = document.querySelector('#icon');
 const captionDesc = document.querySelector('figcaption');
 
-// API url and API ID (Bakersfield, CA)
+// API url and API ID (Seattle, WA)
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Seattle&units=imperial&limit=5&appid=a17f5875d88668d8c58a812722d0f774';
 
 // Function to fetch API
