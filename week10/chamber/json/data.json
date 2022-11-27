@@ -1,0 +1,85 @@
+{
+    "business": [
+      {
+        "name": "Algernon's Elixirs",
+        "address": "9 Quill Way, Alchemical District",
+        "phone": "Scribe: (≷∂≧) - ∲≧∲ - ≷∾≧≇",
+        "url": "www.algernonelixirs.com",
+        "membership": "Gold Membership",
+        "established": "Since: 13 EDE",
+        "imagesrc": "images/elixir.webp"
+      },
+      {
+        "name": "Arcturo's Arms and Armor",
+        "address": "13 Main Street, Trade District",
+        "phone": "Scribe: (≧∂≊) - ∲≧∲ - ≧∾≇≷",
+        "url": "www.arcturoarms.com",
+        "membership": "Gold Membership",
+        "established": "Since: 12 EDE",
+        "imagesrc": "images/blacksmith.webp"
+      },
+      {
+        "name": "Griswald's Gladiator Training",
+        "address": "32 Felsteel Road, Industrial District",
+        "phone": "Scribe: (∂≧∂) - ∲v≊ - ∾≧≇≧",
+        "url": "www.pomcandles.com",
+        "membership": "Gold Membership",
+        "established": "Since: 105 EDE",
+        "imagesrc": "images/gladiator.webp"
+      },
+      {
+        "name": "Shaji's Shady Goods",
+        "address": "7 Dagger Way, Cleft of Shadow",
+        "phone": "Scribe: (∂≢∂) - ∲≢∲ - ∾≊≇≢",
+        "url": "www.shajishadow.com",
+        "membership": "Silver Membership",
+        "established": "Since: 199 EDE",
+        "imagesrc": "images/shaji.png"
+      },
+      {
+        "name": "Erudite Translocation Network",
+        "address": "3 Main Street, City Center",
+        "phone": "Scribe: (∂≢∂) - ∲≢≢ - ∾≢≇≢",
+        "url": "www.eruditenetwork.com",
+        "membership": "Gold Membership",
+        "established": "Since: 209 EDE",
+        "imagesrc": "images/erudite.png"
+      },
+      {
+        "name": "Veritas GuildHall Network",
+        "address": "6 Highmark Street, Upper District",
+        "phone": "Scribe: (∂∂∂) - ≊∲∲ - ≢∾≢≇",
+        "url": "www.veritasguild.com",
+        "membership": "Silver Membership",
+        "established": "Since: 202 EDE",
+        "imagesrc": "images/veritas.png"
+      },
+      {
+        "name": "Mangey Boar Tavern and Lodging ",
+        "address": "12 Merchant Way, Trade District",
+        "phone": "Scribe: (∂≊∂) - ≢∲∲ - ∾≷≇≷",
+        "url": "www.mangeyboarinn.com",
+        "membership": "Gold Membership",
+        "established": "Since: 150 EDE",
+        "imagesrc": "images/inn.png"
+      },
+      {
+        "name": "Hargrave's Puzzles and Oddities",
+        "address": "22 scholar Lane, Mechanist District",
+        "phone": "Scribe: (∂∂∂) - ∲≢∲ - ∾∾≊≇",
+        "url": "www.HargraveGurandeon.com",
+        "membership": "Gold Membership",
+        "established": "Since: 213 EDE",
+        "imagesrc": "images/hargrave's.png"
+      },
+      {
+        "name": "Isharanka's Herbs and Tinctures",
+        "address": "13 Hydra Way, Alchemical District",
+        "phone": "Scribe: (≢∂≊) - ≷∲≷ - ∾≢≇≇",
+        "url": "www.Isharankaherbs.com",
+        "membership": "Silver Membership",
+        "established": "Since: 188 EDE",
+        "imagesrc": "images/Isharanka.png"
+      }
+    ]
+}
