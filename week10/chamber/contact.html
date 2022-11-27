@@ -46,31 +46,36 @@
           <li><a href="contact.html">Contact Us!</a></li>
         </ul>
       </nav>
-      <main class="directory">
-        <h2>Malburg Business Directory</h2>
-        <div class="buttons">
-          <button id="gridBtn">Grid</button>
-          <button id="listBtn">List</button>
-        </div>
-        <article class="grid-cards">
-          <div class="cards">
-          </div>
-        </article>
-      </main>
-      <footer style="background-image: url('images/scroll-background.webp')">
-        <p>
-          &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
-          Fall 2022 |
-          <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
-        </p>
-        <p>Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span></p>
-        <p id="last-visit-p"> It has been <span id="last-visit"></span> days since your last visit.</p>
-      </footer>
-      <script src="scripts/menu.js"></script>
-      <script src="scripts/dates.js"></script>
-      <script src="scripts/lastvisit.js"></script>
-      <script src="scripts/lazyload.js"></script>
-      <script src="scripts/directory.js"></script>
-    </body>
-  </html>
-  
+        <main class="contact">
+            <h2>Contact the Malburg Chamber of Commerce</h2>
+            <p>Hours (M-F): Dawn till Half Nightmoon</p>
+            <p>Phone: (∂≢∂) - ≊∲∲ - ≢∾≢≇</p>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Send Us a Message!</legend>
+                    <label class="top">Name<input type="text" name="name"></label>
+                    <label class="top">Email*<input type="email" name="email" required=""></label>
+                    <label class="top">Message<textarea name="message"></textarea></label>
+                </fieldset>
+                <input type="submit" value="Relay Message" id="messageBtn">
+            </form>
+        </main>
+</div>
+<footer style="background-image: url('images/scroll-background.webp')">
+    <p>
+      &copy; <span id="copyrightyear"></span> | Benjamin Ekstrand | WDD230
+      Fall 2022 |
+      <a href="https://www.byui.edu/online" target="_blank">BYUI</a>
+    </p>
+    <p>
+      Last Updated: <span id="lastUpdate">Saturday, 29 October 2022</span>
+    </p>
+    <p id="last-visit-p">
+      It has been <span id="last-visit"></span> days since your last visit.
+    </p>
+  </footer>
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/dates.js"></script>
+  <script src="scripts/lastvisit.js"></script>
+</body>
+</html>

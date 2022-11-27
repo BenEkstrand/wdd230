@@ -497,3 +497,23 @@ form label input[type=text]:focus {
 .list img {
   display: none;
 }
+/* Contact Page */
+.contact p, h2 {
+  text-align: center;
+}
+.contact h2{
+  background-color: #380202;
+  color: #fbfbfb;
+}
+.top {
+  display: block;
+  padding: .5rem;
+}
+textarea {
+  height: 200px;
+  width: 95%;
+  box-shadow: 5px 5px 5px #555;
+}
+input{
+  box-shadow: 5px 5px 5px #555;
+}
