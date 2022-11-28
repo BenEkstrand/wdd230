@@ -136,6 +136,7 @@ form div {
 /*-------- Directory Page-------- */
   .directory {
       grid-template-columns: 1fr;
+      margin-top: 10px;
   }
   .directory .grid {
       grid-template-columns: 1fr;
