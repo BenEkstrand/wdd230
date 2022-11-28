@@ -20,8 +20,8 @@ main {
 }
 
 .social img {
-max-width: 75%;
-max-height: auto;
+  max-width: 75%;
+  max-height: auto;
 }
 
 footer {
@@ -208,11 +208,11 @@ section {
   margin-top: 0;
 }
 .weatherInput p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 5px;
   text-align: left;
 }
-#icon{
+#icon {
   max-width: 35px;
 }
 #news {
@@ -269,28 +269,27 @@ body {
   min-width: 350px;
   margin: auto;
   text-align: center;
-  
 }
 .colors th {
-  background-color: #66666E;
+  background-color: #66666e;
   color: white;
   padding: 3px;
   font-size: 20px;
 }
 
-.colors td{
+.colors td {
   margin-top: auto;
   width: 20%;
   height: 15em;
   outline-style: inset;
-  outline-color: black; 
+  outline-color: black;
 }
 /* Discover Section */
 .discover-header {
   display: block;
   text-align: center;
   padding-top: 5px;
-  box-shadow: 0px 5px 5px #555;  
+  box-shadow: 0px 5px 5px #555;
   background-color: #380202;
   color: #fbfbfb;
   height: 40px;
@@ -326,7 +325,7 @@ img[data-src] {
   text-align: center;
   font-family: "Aclonica", sans-serif;
 }
-#dangers{
+#dangers {
   background-color: #380202;
   color: white;
   height: 100%;
@@ -340,8 +339,8 @@ img[data-src] {
   padding: 1rem;
   background-color: #380202;
   color: #fbfbfb;
-  font-family: "Aclonica", sans-serif;;
-  font-size: .8rem;
+  font-family: "Aclonica", sans-serif;
+  font-size: 0.8rem;
   margin: 0;
 }
 
@@ -351,7 +350,7 @@ img[data-src] {
   padding: 1rem;
   background-color: #380202;
   color: #fbfbfb;
-  font-family: "Aclonica", sans-serif;;
+  font-family: "Aclonica", sans-serif;
   margin-top: 2;
   margin-right: 0;
   margin-left: 0;
@@ -394,22 +393,22 @@ form label input {
   max-width: 90%;
   display: block;
   font-size: 1rem;
-  padding: .75rem;
-  margin-right: .75rem;
+  padding: 0.75rem;
+  margin-right: 0.75rem;
   resize: vertical;
 }
 
-form label input[type=text]:focus {
+form label input[type="text"]:focus {
   border: 3px solid #555;
 }
 
-#business-description{
+#business-description {
   width: 90%;
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
   max-width: 750px;
 }
-.chamberJoin{
+.chamberJoin {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -425,7 +424,7 @@ form label input[type=text]:focus {
 .membership label {
   display: inline;
 }
-#membership_info{
+#membership_info {
   max-width: 725px;
 }
 
@@ -442,18 +441,17 @@ form label input[type=text]:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 #thank-you h1 {
   color: #4d0202;
 }
-#thank-img{
+#thank-img {
   display: flex;
   align-content: center;
 }
 /*--------------Directory-------------*/
-.directory{
+.directory {
   border: 1px solid #380202;
   background-image: url("images/scroll-background-vert.webp");
 }
@@ -468,7 +466,8 @@ form label input[type=text]:focus {
   justify-content: center;
   margin-top: 2rem;
 }
-#gridBtn, #listBtn {
+#gridBtn,
+#listBtn {
   padding: 1rem;
   margin: 5px;
   box-shadow: 5px 5px 5px #555;
@@ -485,7 +484,7 @@ form label input[type=text]:focus {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 .cards section {
   margin-top: 2rem;
@@ -506,25 +505,26 @@ form label input[type=text]:focus {
   display: none;
 }
 /* Contact Page */
-.contact p, h2 {
+.contact p,
+h2 {
   text-align: center;
 }
-.contact h2{
+.contact h2 {
   background-color: #380202;
   color: #fbfbfb;
 }
 .top {
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 textarea {
   height: 200px;
   width: 95%;
   box-shadow: 5px 5px 5px #555;
 }
-input{
+input {
   box-shadow: 5px 5px 5px #555;
 }
-fieldset{
+fieldset {
   background-image: url("images/scroll-background-vert.webp");
 }
