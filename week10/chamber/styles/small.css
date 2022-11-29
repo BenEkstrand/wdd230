@@ -13,7 +13,7 @@ main {
 .social {
   display: flex;
   flex-direction: row;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 5px;
   padding-left: 3rem;
   padding-right: 2rem;
