@@ -437,7 +437,7 @@ form label input[type="text"]:focus {
 #membership_info div h4 {
   color: #4d0202;
 }
-
+/*---------Thank Page-----------*/
 .thank-main{
 display: flex;
 flex-direction: column;
