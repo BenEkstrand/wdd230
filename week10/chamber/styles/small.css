@@ -438,11 +438,18 @@ form label input[type="text"]:focus {
   color: #4d0202;
 }
 
+.thank-main{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 15px
+}
 #thank-you {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 15px;
 }
 
 #thank-you h1 {
@@ -451,6 +458,11 @@ form label input[type="text"]:focus {
 #thank-img {
   display: flex;
   align-content: center;
+
+}
+picture img {
+  width: 1000px;
+  height: auto;
 }
 /*--------------Directory-------------*/
 .directory {
