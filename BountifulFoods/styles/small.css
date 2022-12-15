@@ -35,6 +35,7 @@ nav ul {
     flex-direction: column;
     justify-content: space-around;
     padding-left: 0;
+    box-shadow: 0px 1.5px 1.5px 1.5px #555;
 }
 nav ul.hide {
     display: none;
@@ -154,6 +155,7 @@ footer {
     background: url('../images/burlap.jpg');
     display: flex;
     background-size: cover;
+    box-shadow: 0px 5px 5px 5px #555;
 }
 .backimg:after {
     content: "";
@@ -203,6 +205,7 @@ fieldset {
     border: none;
     border-top: 1px solid #5c9c36;
     margin-bottom: 2rem;
+    
 }
 legend {
     margin-left: .5rem;
@@ -217,20 +220,24 @@ textarea {
     height: 200px;
     width: 90%;
     margin: .5rem;
+    box-shadow: 0px 5px 5px 5px #555;
 }
 .top {
     display: block;
     padding-left: .5rem;
     padding-bottom: .5rem;
+    
 }
 input {
     min-width: 190px;
+    box-shadow: 0px 1.5px 1.5px #555;
 }
 .fruitOptions, .fruitOptions2, .fruitOptions3 {
     display: flex;
     min-width: 210px;
     padding: .5rem;
-    margin: .5rem;
+    margin: 1rem;
+    box-shadow: 0px 5px 5px 5px #555;
 }
 #drinkBtn {
     margin-left: 1rem;
@@ -238,6 +245,7 @@ input {
     font-size: 1rem;
     border: none;
     background-color: #5c9c36;
+    box-shadow: 0px 5px 5px 5px #555;
 }
 /* Thank page */
 .farm{
