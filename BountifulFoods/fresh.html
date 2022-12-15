@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Bountiful Foods Organic Produce Distributors - From Carlsbad to San Diego, California'>
+    <title>Bountiful Foods [-] Fresh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles/normalize.css'>
+    <link rel='stylesheet' href='styles/small.css'>
+    <link rel='stylesheet' href='styles/medium.css'>
+    <link rel='stylesheet' href='styles/large.css'>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<img class='logo' src='images/toplogo.gif' alt='Bountiful Foods Logo'>
+</header>
+<nav>
+    <button onclick="toggleMenu()">☰</button>
+    <ul id='mainNav' class='hide'>
+        <li class='active'><a href='index.html'>Home</a></li>
+        <li><a href='fresh.html'>Fresh</a></li>
+        <li><a href='about.html'>About</a></li>
+    </ul>
+</nav>
+
+<!--Main Content-->
+<main class='freshPage'>
+    <h2>Create your new favorite fruit drink!</h2>
+    <form method='get' action='thankyou.html'>
+        <fieldset>
+            <legend>A Little About You &#127793;</legend>
+            <label class='top'>Full Name*<input type='text' name='fname' placeholder="John Smith" required></label>
+            <label class='top'>Email Address*<input type='email' name='email' placeholder='your_email@mail.com' required></label>
+            <label class='top'>Phone # (with Area Code)*<input type='tel' placeholder='(999)999-9999' required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Make Your fruit choices! &#127793;</legend>
+            <section>
+                <select class='fruitOptions'>
+                    <option></option>
+                </select>
+                <select class='fruitOptions'>
+                    <option></option>
+                </select>
+                <select class='fruitOptions'>
+                    <option></option>
+                </select>
+            </section>
+        </fieldset>
+        <fieldset>
+            <legend>Customize Your Drink Masterpiece! &#127793;</legend>
+            <textarea></textarea>
+        </fieldset>
+        <input type='submit' value='Mix It Up!' id='drinkBtn'>
+    </form>
+</main>
+<div class="wrapper"></div>
+<!--Footer-->
+<footer>
+    <div class="backimg">  
+        <div class='socialIcons'>
+            <a href='https://facebook.com'><img src='images/facebook.png'alt='Facebook logo' target="_blank"></a>
+            <a href='https://snapchat.com'><img src='images/snapchat.png' alt='Snapchat logo'target="_blank"></a>
+            <a href='https://tik-tok.com'><img src='images/tik-tok.png' alt='Tik-Tok icon'target="_blank"></a>
+        </div>
+        <div class='contactInfo'>
+            <h2>Bountiful Foods Organic</h2>
+            <p>5973 Avenida Encinas, Carlsbad, CA 92008</p>
+            <p>(555) 555-555</p>
+            <hr>
+            <p>Last updated: <span class='lastUpdate'></span></p>
+        </div>
+    </div>
+    </footer>
+
+<!-- Javascript -->
+<script src='scripts/menu.js'></script>
+<script src='scripts/fruits.js' defer></script>
+<script src='scripts/lastmodified.js'></script>
+<script src='scripts/totaldrinks.js'></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+/* Body */
+
+/*
+
+/* Header */
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+header,
+footer {
+  font-family: 'Merriweather', serif;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Navigation */
+nav {
+    text-align: center;
+
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+nav ul {
+    list-style-type: none;
+    background: url('../images/burlap.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0;
+}
+nav ul.hide {
+    display: none;
+}
+nav ul li {
+    padding: 1rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    background-color:rgba(217, 220, 216, 0.75)
+}
+nav ul li:hover {
+    background-color:rgba(13, 161, 26, 0.5)
+}
+.active {
+    text-decoration: underline;
+    text-underline-offset: .4rem;
+    background-color:rgba(13, 161, 26, 0.5);
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+/* Main */
+main {
+    margin: 0 auto;
+    max-width: 90%;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #01492d;
+    font-family: 'Fredericka the Great', cursive;
+}
+p {
+    font-family: 'Merriweather', serif;
+}
+section {
+    padding-bottom: 20px;
+}
+hr {
+    border: 1px solid rgba(206, 17, 42, 0.70);
+}
+main img {
+    max-width: 100%;
+    box-shadow: 0px 5px 5px #555;
+}
+.forecast {
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.forecast div {
+    background-color: #5c9c3685;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    box-shadow: 0px 5px 5px #555;
+}
+.forecast h3 {
+    color: #000;
+    font-family: 'Merriweather', serif;
+}
+.forecast figure img {
+    max-width: 60px;
+}
+#callToAction {
+    position: relative;
+    margin: 0 auto;
+}
+#callToAction img {
+    height: 400px;
+    object-fit: cover;
+}
+.smoothie{
+    text-align: right;
+}
+.orderInfo {
+    height: 80px;
+    width: 130px;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 5px 5px #555;
+}
+#createDrink {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #5c9c36;
+    box-shadow: 0px 5px 5px #555;
+}
+#createDrink:hover {
+    background-color: #5c9c3690;
+}
+/* Footer */
+footer {
+    margin-top: 20px;
+    max-width: 100vw;
+    text-align: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    padding-top: 10%;
+}
+.backimg {
+    position: relative;
+    max-width: 800px;
+    background: url('../images/burlap.jpg');
+    display: flex;
+    background-size: cover;
+}
+.backimg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+        -moz-opacity: 0.2;
+        -khtml-opacity: 0.2;
+}
+.socialIcons {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+.socialIcons img {
+    width: 40px;
+    margin: 20px 8px 10px;
+}
+.contactInfo {
+    text-align: center;
+    font-size: .8rem;
+    padding-bottom: 20px;
+    background-color:rgba(217, 220, 216, 0.75)
+
+}
+.contactInfo h2 {
+    color: #000;
+}
+.contactInfo hr {
+    border: .5px solid rgba(206, 17, 42, 0.70);
+}
+.wrapper {
+    background-color: rgba(163, 201, 145, 0.25);
+    max-width: 800px;
+  }
+
+/* Fresh Page */
+fieldset {
+    padding-left: .5rem;
+    font-family: 'Merriweather', serif;
+    border: none;
+    border-top: 1px solid #5c9c36;
+    margin-bottom: 2rem;
+}
+legend {
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+input, textarea {
+    display: block;
+    padding: .5rem;
+}
+textarea {
+    height: 200px;
+    width: 90%;
+    margin: .5rem;
+}
+.top {
+    display: block;
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+}
+input {
+    min-width: 190px;
+}
+.fruitOptions, .fruitOptions2, .fruitOptions3 {
+    display: flex;
+    min-width: 210px;
+    padding: .5rem;
+    margin: .5rem;
+}
+#drinkBtn {
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #5c9c36;
+}
+/* Thank page */
+.farm{
+margin-top: 5%;
+margin-left: 18%;
+}
+#thank-you{
+    text-align: center;
+}
+/* About page */
+.map {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 10%;
+    box-shadow: 0px 5px 5px 5px #555;
+}

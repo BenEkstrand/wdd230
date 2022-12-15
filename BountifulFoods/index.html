@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Bountiful Foods Organic Produce Distributors - From Carlsbad to San Diego, California'>
+    <title>Bountiful Foods [-] Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='styles/normalize.css'>
+    <link rel='stylesheet' href='styles/small.css'>
+    <link rel='stylesheet' href='styles/medium.css'>
+    <link rel='stylesheet' href='styles/large.css'>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<img class='logo' src='images/toplogo.gif' alt='Bountiful Foods Logo'>
+</header>
+<nav>
+    <button onclick="toggleMenu()">☰</button>
+    <ul id='mainNav' class='hide'>
+        <li class='active'><a href='index.html'>Home</a></li>
+        <li><a href='fresh.html'>Fresh</a></li>
+        <li><a href='about.html'>About</a></li>
+    </ul>
+</nav>
+<!--Main Content-->
+<main class="home">
+    <section id='summary'>
+        <h2>About Carlsbad, CA</h2>
+        <p>In Carlsbad, something wonderful is around every corner. Perfectly situated between the laid-back vibe of downtown San Diego and the glamour of Orange County, the world is at your fingertips, while your toes are in the sand. The suburban city of Carlsbad is located in northern San Diego County, California. Surrounded by mountains, lagoons and the Pacific Ocean, the city is situated on the Pacific Coast about 35 miles north of San Diego and about 60 miles south of Anaheim. Along with the cities of Vista and Oceanside, Carlsbad forms a third leg in what is called the "Tri-City Area" of the county.</p>
+    </section>
+    <hr>
+    <section id='callToAction'>
+        <div class="smoothie">
+            <img src='images/smoothie.webp' alt='Fresh Organic Berry Smoothie'>
+        </div>
+        <div class='orderInfo'>
+            <p>You have ordered <span id='numDrinks'></span> custom drinks.</p>
+        </div>
+        <form action='fresh.html'>
+            <button id='createDrink' type='submit'>Order now!</button>
+        </form>
+    </section>
+    <hr>
+    <section id='weather'>
+        <h2>3-Day Forecast</h2>
+        <div class='forecast'>
+            <div>
+            <h3>Today</h3>
+            <figure>
+                <img src='' alt='' id='icon1'>
+                <figcaption id="cap1"></figcaption>
+            </figure>
+            <p>Temp: <span id='temp1'></span>&#8457;</p>
+            <p>Humidity: <span id='hum1'></span></p>
+            </div>
+            <div>
+            <h3>Tomorrow</h3>
+            <figure>
+                <img src='' alt='' id='icon2'>
+                <figcaption id="cap2"></figcaption>
+            </figure>
+            <p>Temp: <span id='temp2'></span>&#8457;</p>
+            <p>Humidity: <span id='hum2'></span></p>
+            </div>
+            <div>
+            <h3>Following Day</h3>
+            <figure>
+                <img src='' alt='' id='icon3'>
+                <figcaption id="cap3"></figcaption>
+            </figure>
+            <p>Temp: <span id='temp3'></span>&#8457;</p>
+            <p>Humidity: <span id='hum3'></span></p>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="wrapper"></div>
+<!--Footer-->
+<footer>
+<div class="backimg">  
+    <div class='socialIcons'>
+        <a href='https://facebook.com'><img src='images/facebook.png'alt='Facebook logo' target="_blank"></a>
+        <a href='https://snapchat.com'><img src='images/snapchat.png' alt='Snapchat logo'target="_blank"></a>
+        <a href='https://tik-tok.com'><img src='images/tik-tok.png' alt='Tik-Tok icon'target="_blank"></a>
+    </div>
+    <div class='contactInfo'>
+        <h2>Bountiful Foods Organic</h2>
+        <p>5973 Avenida Encinas, Carlsbad, CA 92008</p>
+        <p>(555) 555-555</p>
+        <hr>
+        <p>Weather data by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap.org</a></p>
+        <p>Last updated: <span class='lastUpdate'></span></p>
+    </div>
+</div>
+</footer>
+<script src='scripts/menu.js'></script>
+<script src='scripts/weather.js'></script>
+<script src='scripts/totaldrinks.js'></script>
+<script src='scripts/lastmodified.js'></script>
+</body>
+</html>
