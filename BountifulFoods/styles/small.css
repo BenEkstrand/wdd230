@@ -207,7 +207,7 @@ footer {
   border: 0.5px solid rgba(206, 17, 42, 0.7);
 }
 .wrapper {
-  background-color: rgba(163, 201, 145, 0.25);
+  background-color: rgba(163, 201, 145, 0.37);
   max-width: 800px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
