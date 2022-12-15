@@ -1,278 +1,306 @@
-
 /* Header */
 .logo {
-    max-width: 150px;
-    display: block;
-    margin: 0 auto;
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
 }
 header,
 footer {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   padding: 5px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-header{
-    background-color: rgba(128, 42, 81, 0.678);
+header {
+  background-color: rgba(128, 42, 81, 0.678);
 }
 /* Navigation */
 nav {
-    text-align: center;
-
+  text-align: center;
 }
 nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    padding-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
 }
 nav ul {
-    list-style-type: none;
-    background: url('../images/burlap.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 0;
-    box-shadow: 0px 1.5px 1.5px 1.5px #555;
-    margin-top: 0;
+  list-style-type: none;
+  background: url("../images/burlap.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0;
+  box-shadow: 0px 1.5px 1.5px 1.5px #555;
+  margin-top: 0;
 }
 nav ul.hide {
-    display: none;
+  display: none;
 }
 nav ul li {
-    padding: 1rem;
-    text-decoration: none;
-    font-family: 'Merriweather', serif;
-    background-color:rgba(217, 220, 216, 0.75)
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  background-color: rgba(217, 220, 216, 0.75);
 }
 nav ul li:hover {
-    background-color:rgba(13, 161, 26, 0.5)
+  background-color: rgba(13, 161, 26, 0.5);
 }
 .active {
-    text-decoration: underline;
-    text-underline-offset: .4rem;
-    background-color:rgba(13, 161, 26, 0.5);
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+  background-color: rgba(13, 161, 26, 0.5);
 }
 nav ul li a {
-    text-decoration: none;
-    color: #000;
-    display: block;
+  text-decoration: none;
+  color: #000;
+  display: block;
 }
 
 /* Main */
 main {
-    margin: 0 auto;
-    max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
 }
-h1, h2, h3 {
-    text-align: center;
-    color: #01492d;
-    font-family: 'Fredericka the Great', cursive;
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #01492d;
+  font-family: "Fredericka the Great", cursive;
 }
 p {
-    font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 section {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 hr {
-    border: 1px solid rgba(206, 17, 42, 0.70);
+  border: 1px solid rgba(206, 17, 42, 0.7);
 }
 main img {
-    max-width: 100%;
-    box-shadow: 0px 5px 5px #555;
+  max-width: 100%;
+  box-shadow: 0px 5px 5px #555;
 }
 .forecast {
-    margin: 0 auto;
-    font-family: 'Merriweather', serif;
-    text-align: center;
+  margin: 0 auto;
+  font-family: "Merriweather", serif;
+  text-align: center;
 }
 .forecast div {
-    background-color: #5c9c36;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    margin-bottom: .5rem;
-    box-shadow: 0px 5px 5px #555;
+  background-color: #5c9c36;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0px 5px 5px #555;
 }
 .forecast h3 {
-    color: #000;
-    font-family: 'Merriweather', serif;
+  color: #000;
+  font-family: "Merriweather", serif;
 }
 .forecast figure img {
-    max-width: 60px;
+  max-width: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  background-color: rgba(211, 211, 211, 0.50);
 }
 #callToAction {
-    position: relative;
-    margin: 0 auto;
+  position: relative;
+  margin: 0 auto;
 }
 #callToAction img {
-    height: 400px;
-    object-fit: cover;
+  height: 400px;
+  object-fit: cover;
 }
-#numDrinks{
-    font-size: 30px;
-    float:right;
-    border: 2px solid rgba(85, 85, 85, 0.25);
-    border-radius: 6px;
-    padding: 3px;
-    position: absolute;
-    top: 18px;
-    right: 22px;
+#numDrinks {
+  font-size: 30px;
+  float: right;
+  border: 2px solid rgba(85, 85, 85, 0.25);
+  border-radius: 6px;
+  padding: 3px;
+  position: absolute;
+  top: 18px;
+  right: 22px;
 }
-.smoothie{
-    text-align: right;
+.smoothie {
+  text-align: right;
 }
 .orderInfo {
-    height: 80px;
-    width: 130px;
-    position: absolute;
-    top: 110px;
-    left: 20px;
-    font-family: 'Merriweather', serif;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.80);
-    box-shadow: 0px 5px 5px #555;
+  height: 80px;
+  width: 130px;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  font-family: "Merriweather", serif;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 5px 5px #555;
 }
 #createDrink {
-    position: absolute;
-    top: 40px;
-    left: 20px;
-    padding: 1rem;
-    font-size: 1.5rem;
-    border: none;
-    background-color: #5c9c36;
-    box-shadow: 0px 5px 5px #555;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #5c9c36;
+  box-shadow: 0px 5px 5px #555;
 }
 #createDrink:hover {
-    background-color: #5c9c3690;
+  background-color: #5c9c3690;
 }
 /* Footer */
 footer {
-    margin-top: 20px;
-    max-width: 100vw;
-    text-align: center;
-    align-items: center;
-    font-size: 0.9rem;
-    margin: 0 auto;
-    display: block;
-    height: 100%;
-    padding-top: 10%;
+  margin-top: 20px;
+  max-width: 100vw;
+  text-align: center;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+  padding-top: 10%;
 }
 .backimg {
-    position: relative;
-    max-width: 800px;
-    background: url('../images/burlap.jpg');
-    display: flex;
-    background-size: cover;
-    box-shadow: 0px 5px 5px 5px #555;
+  position: relative;
+  max-width: 800px;
+  background: url("../images/burlap.jpg");
+  display: flex;
+  background-size: cover;
+  box-shadow: 0px 5px 5px 5px #555;
 }
 .backimg:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-        -moz-opacity: 0.2;
-        -khtml-opacity: 0.2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  -moz-opacity: 0.2;
+  -khtml-opacity: 0.2;
 }
 .socialIcons {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5px;
-    padding-left: 1rem;
-    padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5px;
+  padding-left: 1rem;
+  padding-right: 2rem;
 }
 .socialIcons img {
-    width: 40px;
-    margin: 20px 8px 10px;
+  width: 40px;
+  margin: 20px 8px 10px;
 }
 .contactInfo {
-    text-align: center;
-    font-size: .8rem;
-    padding-bottom: 20px;
-    background-color:rgba(217, 220, 216, 0.75)
-
+  text-align: center;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+  background-color: rgba(217, 220, 216, 0.75);
 }
 .contactInfo h2 {
-    color: #000;
+  color: #000;
 }
 .contactInfo hr {
-    border: .5px solid rgba(206, 17, 42, 0.70);
+  border: 0.5px solid rgba(206, 17, 42, 0.7);
 }
 .wrapper {
-    background-color: rgba(163, 201, 145, 0.25);
-    max-width: 800px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+  background-color: rgba(163, 201, 145, 0.25);
+  max-width: 800px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* Fresh Page */
 fieldset {
-    padding-left: .5rem;
-    font-family: 'Merriweather', serif;
-    border: none;
-    border-top: 1px solid #5c9c36;
-    margin-bottom: .75rem;
-    
+  padding-left: 0.5rem;
+  font-family: "Merriweather", serif;
+  border: none;
+  border-top: 1px solid #5c9c36;
+  margin-bottom: 0.75rem;
 }
 legend {
-    margin-left: .5rem;
-    margin-bottom: .5rem;
-    font-size: 1.2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
-input, textarea {
-    display: block;
-    padding: .5rem;
+input,
+textarea {
+  display: block;
+  padding: 0.5rem;
 }
 textarea {
-    height: 200px;
-    width: 90%;
-    margin: .5rem;
-    box-shadow: 0px 5px 5px 5px #555;
+  height: 200px;
+  width: 90%;
+  margin: 0.5rem;
+  box-shadow: 0px 5px 5px 5px #555;
 }
 .top {
-    display: block;
-    padding-left: .5rem;
-    padding-bottom: .5rem;
-    
+  display: block;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 input {
-    min-width: 190px;
-    box-shadow: 0px 1.5px 1.5px #555;
+  min-width: 190px;
+  box-shadow: 0px 1.5px 1.5px #555;
 }
-.fruitOptions, .fruitOptions2, .fruitOptions3 {
-    display: flex;
-    min-width: 210px;
-    padding: .5rem;
-    margin: 1rem;
-    box-shadow: 0px 5px 5px 5px #555;
+#fruitOptions,
+#fruitOptions2,
+#fruitOptions3 {
+  display: flex;
+  min-width: 210px;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 0px 5px 5px 5px #555;
 }
 #drinkBtn {
-    margin-left: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    border: none;
-    background-color: #5c9c36;
-    box-shadow: 0px 5px 5px 5px #555;
+  margin-left: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(92, 156, 54);
+  box-shadow: 0px 5px 5px 5px #555;
+}
+/* Drink result */
+.fruit-card {
+  background-color: rgba(92, 156, 54, 0.5);
+  text-align: left;
+  margin: 1em 0.5em;
+  padding: 1em;
+  text-transform: capitalize;
+  max-width: 25rem;
+  border: 0.5px solid var(--color5);
+  border-radius: 20px;
+}
+.fruit-card > p {
+  margin: 0 0.5em 0.2em 0.5em;
+}
+#order-results {
+  border: 0.5px solid var(--color5);
+  border-radius: 20px;
+  max-width: 25rem;
+  margin: 1em;
+  padding: 1em;
+  text-align: left;
+}
+#order-results h2 {
+  margin: 0;
 }
 /* Thank page */
-.farm{
-margin-top: 5%;
-margin-left: 18%;
+.farm {
+  margin-top: 5%;
+  margin-left: 18%;
 }
-#thank-you{
-    text-align: center;
+#thank-you {
+  text-align: center;
 }
 /* About page */
 .map {
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    padding-top: 10%;
-    box-shadow: 0px 5px 5px 5px #555;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  padding-top: 10%;
+  box-shadow: 0px 5px 5px 5px #555;
 }

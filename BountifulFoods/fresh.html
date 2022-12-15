@@ -30,35 +30,35 @@
 </nav>
 
 <!--Main Content-->
-<main class='freshPage'>
+<main id='freshPage'>
     <h2>Customize your new organic fruit drink creation!</h2>
     <br>
-    <form method='get' action='thankyou.html'>
+    <form method='get' id="drinkForm" action=''>
         <fieldset>
             <legend>&nbsp; A Little About You &nbsp;</legend>
-            <label class='top'>Full Name*<input type='text' name='fname' placeholder="John Smith" required></label>
+            <label class='top'>Full Name*<input type='text' name='fName' placeholder="John Smith" required></label>
             <label class='top'>Email Address*<input type='email' name='email' placeholder='your_email@mail.com' required></label>
-            <label class='top'>Phone # (with Area Code)*<input type='tel' placeholder='(999) 999-9999' required></label>
+            <label class='top'>Phone # (with Area Code)*<input type='tel'name='cell' placeholder='(999) 999-9999' required></label>
         </fieldset>
         <fieldset>
             <legend>&nbsp; Make Your fruit choices! &nbsp;</legend>
             <section>
-                <select class='fruitOptions'>
-                    <option></option>
+                <select name="fruitOptions" id='fruitOptions' required>
+                    <option value="">Click to select</option>
                 </select>
-                <select class='fruitOptions'>
-                    <option></option>
+                <select name="fruitOptions2" id='fruitOptions2' required>
+                    <option value="">Click to select</option>
                 </select>
-                <select class='fruitOptions'>
-                    <option></option>
+                <select name="fruitOptions3" id='fruitOptions3' required>
+                    <option value="">Click to select</option>
                 </select>
             </section>
         </fieldset>
         <fieldset>
             <legend>&nbsp; Customize Your Drink Masterpiece! &nbsp;</legend>
-            <textarea></textarea>
+            <textarea name="instructions"></textarea>
         </fieldset>
-        <input type='submit' value='Mix It Up!' id='drinkBtn'>
+        <input type='submit' value='Order' name="btnSubmit" id='drinkBtn'>
     </form>
 </main>
 <div class="wrapper"></div>
