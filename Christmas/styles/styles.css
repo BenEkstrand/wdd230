@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url('../Christmas/images/trees.webp');
+    /* background-image: url('/images/trees.webp'); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
