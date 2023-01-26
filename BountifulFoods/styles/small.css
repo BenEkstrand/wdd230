@@ -46,12 +46,12 @@ nav ul li {
   background-color: rgba(217, 220, 216, 0.75);
 }
 nav ul li:hover {
-  background-color: rgba(13, 161, 26, 0.5);
+  background-color: rgba(13, 161, 26, 0.75);
 }
 .active {
   text-decoration: underline;
   text-underline-offset: 0.4rem;
-  background-color: rgba(13, 161, 26, 0.5);
+  background-color: rgba(13, 161, 26, 0.75);
 }
 nav ul li a {
   text-decoration: none;
