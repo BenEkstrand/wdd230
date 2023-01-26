@@ -185,7 +185,7 @@ footer {
 .socialIcons {
   display: flex;
   flex-direction: column;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 5px;
   padding-left: 1rem;
   padding-right: 2rem;
@@ -195,6 +195,7 @@ footer {
   margin: 20px 8px 10px;
 }
 .contactInfo {
+  position: relative;
   text-align: center;
   font-size: 0.8rem;
   padding: 1rem;
