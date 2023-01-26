@@ -197,7 +197,7 @@ footer {
 .contactInfo {
   text-align: center;
   font-size: 0.8rem;
-  padding-bottom: 20px;
+  padding: 1rem;
   background-color: rgba(217, 220, 216, 0.75);
 }
 .contactInfo h2 {
