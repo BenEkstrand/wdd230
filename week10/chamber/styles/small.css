@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(70, 0, 0, 0.582);
 }
 
 nav ul li a:hover {
@@ -543,4 +543,11 @@ input {
 fieldset {
   background-image: url('../images/scroll-background-vert.webp');
   background-size: cover;
+}
+legend{
+  text-align: left;
+  background-color: #380202;
+  color: #fbfbfb;
+  box-shadow: 0px 2px 2px #555;
+  padding: 0.2rem;
 }
