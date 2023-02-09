@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color: rgba(70, 0, 0, 0.582);
+  background-color: #380202;
 }
 
 nav ul li a:hover {
